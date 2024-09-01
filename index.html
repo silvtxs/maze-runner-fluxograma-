@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxograma Maze Runner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Explorando a WCKD e a Trilogia *Maze Runner*</h1>
+        <div class="content">
+            <div class="section" id="intro">
+                <h2>Introdução à WCKD</h2>
+                <p>A WCKD (World Catastrophe Killzone Department) é uma organização global que surgiu após o colapso da civilização devido a uma epidemia devastadora conhecida como "Fúria". Seu objetivo principal é encontrar uma cura para a epidemia e preservar a humanidade, mas seus métodos são brutais e éticamente questionáveis.</p>
+                <button onclick="navigate('maze-runner')">Detalhes do Filme 1</button>
+                <button onclick="navigate('scorch-trials')">Detalhes do Filme 2</button>
+                <button onclick="navigate('death-cure')">Detalhes do Filme 3</button>
+            </div>
+
+            <div class="section hidden" id="maze-runner">
+                <h2>Maze Runner: Correr ou Morrer (2014)</h2>
+                <p>No início, a WCKD é apresentada de forma vaga, com os personagens começando a perceber que estão sendo manipulados. Thomas e os outros jovens descobrem que foram colocados no Labirinto por essa organização, sem saber inicialmente o motivo ou os verdadeiros objetivos por trás dos testes.</p>
+                <p>A WCKD utiliza o Labirinto como um experimento para estudar a resistência e a sobrevivência dos jovens, com o objetivo de testar suas capacidades em condições extremas e descobrir uma forma de superar o vírus Fúria.</p>
+                <button onclick="navigate('intro')">Voltar</button>
+            </div>
+
+            <div class="section hidden" id="scorch-trials">
+                <h2>Maze Runner: Prova de Fogo (2015)</h2>
+                <p>Após a fuga do Labirinto, Thomas e seus amigos descobrem que o mundo fora do Labirinto está devastado pela epidemia de Fúria. A WCKD é revelada como uma organização que controla as últimas remanescentes da humanidade e continua a realizar experimentos para encontrar uma cura.</p>
+                <p>A WCKD realiza experimentos em uma instalação chamada "Cidade", onde os protagonistas enfrentam novas formas de teste e desafios, incluindo o vírus Fúria. Thomas e sua equipe lutam contra as forças da WCKD e tentam escapar para encontrar uma solução para a epidemia.</p>
+                <button onclick="navigate('intro')">Voltar</button>
+            </div>
+
+            <div class="section hidden" id="death-cure">
+                <h2>Maze Runner: A Cura Mortal (2018)</h2>
+                <p>No terceiro filme, a WCKD é mostrada em sua forma mais antagonista. Thomas e seu grupo se infiltram em uma fortaleza da WCKD para enfrentar a liderança e os principais responsáveis pelos experimentos. A batalha final revela a verdadeira face da WCKD e seus objetivos mais sombrios.</p>
+                <p>A organização é confrontada diretamente, e suas ações são expostas ao público. A luta de Thomas e seus amigos culmina em uma resolução para os conflitos causados pela WCKD e a busca por uma verdadeira solução para a epidemia.</p>
+                <button onclick="navigate('intro')">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
